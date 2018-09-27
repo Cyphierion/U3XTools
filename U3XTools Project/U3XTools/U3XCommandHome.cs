@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-
 // RocketMod for Unturned 3.X.X.X
 using Rocket.API;
 using Rocket.API.Collections;
 using Rocket.Core.Plugins;
 using Rocket.Unturned;
+using Rocket.Unturned.Chat;
 using Rocket.Unturned.Events;
 using Rocket.Unturned.Player;
 
@@ -35,7 +35,9 @@ namespace U3XTools
         public void Execute(IRocketPlayer caller, string[] command)
         {
             // display hello world in world chat after typing /home with the caller name
-            ChatManager.sendChat(EChatMode.GLOBAL, caller.DisplayName + "has called /home");
+            // ChatManager.sendChat(EChatMode.GLOBAL, caller.DisplayName + "has called /home");
+
+            UnturnedChat.Say(caller.DisplayName + "has called /home");
         }
     }
 }
