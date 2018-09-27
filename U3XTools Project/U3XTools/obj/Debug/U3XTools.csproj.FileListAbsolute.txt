@@ -1,0 +1,13 @@
+C:\Users\littl\Documents\GitHub\U3XTools\U3XTools Project\U3XTools\bin\Debug\U3XTools.dll
+C:\Users\littl\Documents\GitHub\U3XTools\U3XTools Project\U3XTools\bin\Debug\U3XTools.pdb
+C:\Users\littl\Documents\GitHub\U3XTools\U3XTools Project\U3XTools\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\littl\Documents\GitHub\U3XTools\U3XTools Project\U3XTools\bin\Debug\Assembly-CSharp.dll
+C:\Users\littl\Documents\GitHub\U3XTools\U3XTools Project\U3XTools\bin\Debug\Rocket.API.dll
+C:\Users\littl\Documents\GitHub\U3XTools\U3XTools Project\U3XTools\bin\Debug\Rocket.Core.dll
+C:\Users\littl\Documents\GitHub\U3XTools\U3XTools Project\U3XTools\bin\Debug\Rocket.Unturned.dll
+C:\Users\littl\Documents\GitHub\U3XTools\U3XTools Project\U3XTools\bin\Debug\UnityEngine.dll
+C:\Users\littl\Documents\GitHub\U3XTools\U3XTools Project\U3XTools\obj\Debug\U3XTools.csprojAssemblyReference.cache
+C:\Users\littl\Documents\GitHub\U3XTools\U3XTools Project\U3XTools\obj\Debug\U3XTools.csproj.CoreCompileInputs.cache
+C:\Users\littl\Documents\GitHub\U3XTools\U3XTools Project\U3XTools\obj\Debug\U3XTools.csproj.CopyComplete
+C:\Users\littl\Documents\GitHub\U3XTools\U3XTools Project\U3XTools\obj\Debug\U3XTools.dll
+C:\Users\littl\Documents\GitHub\U3XTools\U3XTools Project\U3XTools\obj\Debug\U3XTools.pdb

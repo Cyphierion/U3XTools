@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="U3XCommandHome.cs" />
     <Compile Include="U3XConfig.cs" />
     <Compile Include="U3XInit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
