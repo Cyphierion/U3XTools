@@ -38,7 +38,7 @@ namespace U3XTools
             // display hello world in world chat after typing /home with the caller name
             // ChatManager.sendChat(EChatMode.GLOBAL, caller.DisplayName + "has called /home");
 
-            UnturnedChat.Say(caller.DisplayName + " has called /home");
+            //UnturnedChat.Say(caller.DisplayName + " has called /home");
 
 
             UnturnedPlayer player = (UnturnedPlayer) caller;
@@ -63,15 +63,23 @@ namespace U3XTools
             {
                 player.Teleport(bedPosition, bedAngle);
 
+                // upate player position
+                playerPosition.x = player.Position.x;
+                playerPosition.y = player.Position.y;
+                playerPosition.z = player.Position.z;
+
                 UnturnedChat.Say(caller.DisplayName + " has called /home and attempted to teleport");
+                UnturnedChat.Say(caller.DisplayName + " current location:   x:" + playerPosition.x + " y:" + playerPosition.y + " z:" + playerPosition.z);
                 UnturnedChat.Say(caller.DisplayName + " bed location:   x:" + bedPosition.x + " y:" + bedPosition.y + " z:" + bedPosition.z);
             }
 
             else
             {
                 UnturnedChat.Say(caller.DisplayName + " has called /home with no bed");
-                UnturnedChat.Say(caller.DisplayName + " current location:   x:" + playerPosition.x + " y:" + playerPosition.y + " z:" + playerPosition.z);
+                //UnturnedChat.Say(caller.DisplayName + " current location:   x:" + playerPosition.x + " y:" + playerPosition.y + " z:" + playerPosition.z);
             }
+
+            UnturnedChat.Say(caller.DisplayName + " current location:   x:" + playerPosition.x + " y:" + playerPosition.y + " z:" + playerPosition.z);
 
             // This is intentionally Disatrous... will fix!
             // Get Bed Location
@@ -84,7 +92,7 @@ namespace U3XTools
 
             //UnturnedNexus testEvent;
             //testEvent.
-            
+
 
 
             /*
