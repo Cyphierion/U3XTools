@@ -30,7 +30,7 @@ namespace U3XTools
 
         public List<string> Aliases => new List<string>();
 
-        public List<string> Permissions => new List<string>();
+        public List<string> Permissions => new List<string>() { "U3XTools.Home" };
 
         public void Execute(IRocketPlayer caller, string[] command)
         {
