@@ -22,10 +22,16 @@ namespace U3XTools
     {
         protected override void Load()
         {
-
+            instance = this;
         }
 
         protected override void Unload()
+        {
+            instance = null;
+        }
+
+        // Most likely needed for Game Updates Frame by Frame
+        public void FixedUpdate()
         {
 
         }

@@ -58,9 +58,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="U3XCommandHome.cs" />
+    <Compile Include="U3XCommandSafeStorage.cs" />
+    <Compile Include="U3XCommandTPA.cs" />
     <Compile Include="U3XConfig.cs" />
     <Compile Include="U3XInit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="U3XPlayer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FlyingCommandTEXT.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
